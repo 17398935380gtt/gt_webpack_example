@@ -4,11 +4,15 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import "./ReactPage.less";
 import TestImg from "./img/WechatIMG1319.jpeg";
+import ES6Test from "./ES6Demo/test_promise";
 
- class ReactPage extends React.Component{
+import {Button} from "antd";
+
+class ReactPage extends React.Component{
      render() {
          return <div id="ReactText">react text 测试watch 热更新测试
             <img src={TestImg} style={{width:"auto",height:"auto"}} alt=""/>
+             <Button>click</Button>
          </div>
      }
  }
